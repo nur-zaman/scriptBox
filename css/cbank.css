@@ -1,0 +1,204 @@
+
+body {
+    background-image: url("https://robotmafia.com/wp-content/uploads/2017/07/waneella_3.gif");
+    background-size: cover;
+    height: 85vh;
+}
+
+.MuiPaper-root {
+    background-color: #2c2c2c;
+    color: #2c2c2c;
+}
+
+.MuiFormLabel-root,
+.MuiInputLabel-root {
+    color: #fcfcfc;
+}
+
+#protectedLayoutDiv > div > div > div > div > div,
+#protectedLayoutDiv > div > div > div > header > div {
+    background-color: #2c2c2c;
+}
+
+#protectedLayoutDiv > div > div > div > header > div > button:nth-child(2) > span.MuiIconButton-label > span > img {
+    content: url("https://i.postimg.cc/cHMQ5f35/pikachu-transparent-32600.gif");
+}
+
+#protectedLayoutDiv > div > div > div > header > div {
+    background-color: #FFD600;
+}
+
+#contentHeight {
+    background-image: url("https://robotmafia.com/wp-content/uploads/2017/07/waneella_3.gif");
+    background-size: cover;
+    height: 85vh;
+}
+
+#contentHeight h1 {
+    color: #d99fd9;
+    text-shadow: 0 0 10px rgba(255, 0, 255, 1), 0 0 20px rgba(255, 0, 255, 1), 0 0 30px rgba(255, 0, 255, 1);
+    filter:invert(1);
+}
+
+#root > div > section > center > main > div > img {
+    content: url("https://i.postimg.cc/cHMQ5f35/pikachu-transparent-32600.gif");
+}
+
+#root > div > section > center > main > div > h1 {
+    color: #fcfcfc;
+}
+
+#root > div > section > center > main > div > form > center > button {
+    background-color: #FFD600;
+    color: #000000;
+}
+
+#protectedLayoutDiv > div > div > div > header > div > h6 {
+    background-color: inherit;
+    color: inherit;
+}
+
+.MuiPaper-root {
+    background-color: #ffffff94;
+}
+
+@keyframes changeColor {
+    0% {
+        color: rgb(128, 255, 128); /* Initial color */
+    }
+    100% {
+        color: rgb(255, 255, 255); /* Final color */
+    }
+}
+
+.MuiPaper-root {
+    background-color: #2c2c2c;
+    color: rgb(128, 255, 128); /* Initial color */
+    animation: changeColor 5s infinite linear;
+    animation-direction: alternate;
+}
+
+.MuiFormLabel-root,
+.MuiInputLabel-root {
+    color: #fcfcfc;
+}
+
+#protectedLayoutDiv > div > div > div > header > div > h1 {
+color: black;
+}
+
+label.input-label-common {
+    background: rgba(255,255,255,.65);
+}
+
+#contentHeight > div {
+    filter: invert(100%);
+}
+
+.jss213 {
+    background: rgba(255,255,255,.65);
+}
+
+#contentHeight > div > div > h4 {
+    background: red;
+    color: white;
+}
+
+body > div.MuiDialog-root > div.MuiDialog-container.MuiDialog-scrollPaper > div h4 {
+    color: aliceblue;
+}
+
+#protectedLayoutDiv > div > div > div > header > div > h6 {
+    color: black!important;
+    background-color: inherit!important;
+}
+#protectedLayoutDiv > div > div > div > header > div > h4 > a {
+    color: black!important;
+    background-color: inherit!important;
+}
+
+#contentHeight h1 {
+    color: #FFD600;
+    text-shadow: 0 0 10px rgba(255, 214, 1, 1), 0 0 20px rgba(255, 214, 1, 1), 0 0 30px rgba(255, 214, 1, 1);
+    filter:invert(1);
+}
+
+.MuiListItemText-primary {
+    color: #FFD600;
+}
+
+.MuiSvgIcon-root{
+color: #FFD600;
+}
+
+.MuiTouchRipple-root {
+
+color: #FFD600;
+
+}
+
+
+
+/* shimmering effect */
+#protectedLayoutDiv > div > div > div > header > div > h1 {
+  font-family: "Lato";
+
+
+}
+#protectedLayoutDiv > div > div > div > header > div > h1 {
+
+  color: rgba(255,255,255,0.1);
+  background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+  background: -moz-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+  background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+  -webkit-background-size: 125px 100%;
+  -moz-background-size: 125px 100%;
+  background-size: 125px 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-animation-name: shimmer;
+  -moz-animation-name: shimmer;
+  animation-name: shimmer;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #222;
+}
+@-moz-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@-webkit-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@-o-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
