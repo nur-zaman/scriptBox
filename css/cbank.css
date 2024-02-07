@@ -137,6 +137,11 @@ color: #FFD600;
 
 }
 
+body > div.MuiDialog-root > div.MuiDialog-container.MuiDialog-scrollPaper > div > div > center > img {
+  content: url("https://i.pinimg.com/originals/5f/93/49/5f934966a1d20bae1909c9ef2278bd4c.gif");
+  width: 25%;
+  }
+
 
 
 /* shimmering effect */
