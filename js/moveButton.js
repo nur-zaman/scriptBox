@@ -15,4 +15,6 @@ noButton.addEventListener("mouseover", () => {
   noButton.style.position = "absolute";
   noButton.style.left = `${adjustedX}px`;
   noButton.style.top = `${adjustedY}px`;
+  noButton.style.maxWidth = 'fit-content';
+  noButton.style.maxHeight = 'fit-content';  
 });
